@@ -24,7 +24,7 @@
 
 
 ```bash
-git clone https://gitverse.ru/lexalexuss/Fast-API-Note-Service.git
+git clone https://github.com/lexalexuss/Fast-API-Note-Service.git
 cd Fast-API-Note-Service
 ```
 
@@ -32,8 +32,8 @@ cd Fast-API-Note-Service
 
 
 ```bash
-docker build -t Fast-API-Note-Service .
-docker run -d -p 8000:8000 Fast-API-Note-Service
+docker build -t notes-app .
+docker run -d -p 8000:8000 notes-app
 ```
 ### 3. Тестирование API
 
